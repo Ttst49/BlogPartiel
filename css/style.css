@@ -106,7 +106,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     padding: 10px;
 }
 
@@ -256,7 +256,7 @@ body{
 }
 
 .carteCommentaire{
-    height: 20vh;
+    height: 25vh;
     width: 30vw;
     background-color: rgba(0, 0, 0, 0.3);
 
@@ -274,3 +274,4 @@ body{
     height: 90vh;
     margin-top: 10vh;
 }
+

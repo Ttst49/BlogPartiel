@@ -35,7 +35,4 @@ if (inscriptionButton===null){
 }
 }
 
-
-
 inscription()
-connexion()
