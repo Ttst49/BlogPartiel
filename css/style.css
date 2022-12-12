@@ -1,5 +1,5 @@
 body{
-    background-color: #000000;
+    background-color: white;
 }
 
 .contenu{
@@ -30,6 +30,7 @@ body{
     width: 100vw;
     background-color: rgb(7, 153, 185);
     height: 10vh;
+    z-index: 1000;
 }
 
 .logo{
@@ -71,10 +72,10 @@ body{
     bottom: 0;
     right: 0;
     height: 8vh;
-    width: 50vw;
+    width: 70vw;
     background-color: rgb(7, 153, 185);
     border-top-left-radius: 25px;
-
+    z-index: 1000;
 
 }
 
@@ -84,6 +85,7 @@ body{
     border-radius: 25px;
     border: none;
     height: 30px;
+    z-index: 100;
 }
 
 .bouton{
@@ -105,6 +107,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 10px;
 }
 
 .floatingCertif{
@@ -132,8 +135,7 @@ body{
 }
 
 .titreSignUp{
-    position: absolute;
-    top: 30%;
+    padding-bottom: 20px;
     color: white;
 }
 
@@ -223,4 +225,52 @@ body{
 .contenuContact{
     height: 90vh;
     bottom: 0;
+}
+
+.contenu{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.filAccueil{
+    width: 60vw;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.boutonAfficher{
+    position: fixed;
+    bottom:10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.carte{
+    height: 30vh;
+}
+
+.carteCommentaire{
+    height: 20vh;
+    width: 30vw;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+.card{
+    margin: 10px;
+}
+
+.suppr{
+    width: 150px;
+}
+
+#contacts{
+    height: 90vh;
+    margin-top: 10vh;
 }

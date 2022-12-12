@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Blog</title>
+    <title>Partiels</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -10,20 +10,63 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
     <style> @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap'); </style>
-
 </head>
 <body>
 <div class="navbarFixed">
     <span class="logo">Logo</span>
     <div class="navbarTools">
-        <span class="contact"><a class="contact" href="contact.html">Contact</a></span>
-        <span class="chat"><a class="chat" href="index.html">Chat</a></span>
-        <span class="log"><a class="log" href="logIn.html">Log In</a></span>
+        <span class="chat"><a class="chat" href="#">Chat</a></span>
+        <span class="log"><a class="log" href="SignUp.html">Sign Up</a></span>
     </div>
 
 </div>
+<div class="contenu">
+    <div class="signUp">
+        <div class="floatingCertif">
+
+            <div class="leftsided">
+                <div class="formulaire">
+                    <span class="titreSignUp fs-1">Sign In</span>
+                    <label style="color: white" for="username">Username</label>
+                    <input type="text" class="usernameSignIn" id="username">
+                    <label style="color: white" for="password">Password</label>
+                    <input type="password" class="passwordSignIn" id="password">
+                    <button class="btn btn-warning" type="submit" id="connection">Connexion</button>
+                </div>
+                <span class="already">Je ne crois pas qu'on s'est déjà vus? <a href="signUp.html"><span class="connection">S'inscrire</span></a></span>
+            </div>
+
+            <div class="rightsided">
+                <div class="info">
+                    <div class="presentation">
+                        <span class="logoPresentation">Logo</span>
+                    </div>
+                    <div class="infos">
+                        <p class="text">De retour? Vous nous avez manquer!</p>
+                        <p class="text">Connectez-vous pour retrouver vos amis et le monde qui vous entoure</p>
+                    </div>
+                </div>
+            </div>
 
 
+        </div>
+    </div>
+    <div class="filAccueil">
+
+    </div>
+
+</div>
+<button class="btn btn-danger boutonAfficher"></button>
+
+<div class="messages">
+    <div class="textMessage">
+        <input type="text" name="message" id="textMessage">
+    </div>
+    <div class="sendButton">
+        <button class="btn btn-success bouton envoyer" type="button">Envoyer</button>
+    </div>
+
+</div>
 <script type="module" src="javascript/blog.js"></script>
 </body>
 </html>
