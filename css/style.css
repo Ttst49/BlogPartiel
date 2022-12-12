@@ -140,6 +140,9 @@ body{
 #send{
     margin: 10px;
 }
+#connection{
+    margin: 10px;
+}
 
 .leftsided{
     display: flex;
